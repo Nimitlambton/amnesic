@@ -10,9 +10,9 @@
 		38310E93246F7A2900CEA4CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38310E92246F7A2900CEA4CD /* AppDelegate.swift */; };
 		38310E95246F7A2900CEA4CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38310E94246F7A2900CEA4CD /* SceneDelegate.swift */; };
 		38310E97246F7A2900CEA4CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38310E96246F7A2900CEA4CD /* ViewController.swift */; };
-		38310E9A246F7A2900CEA4CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38310E98246F7A2900CEA4CD /* Main.storyboard */; };
 		38310E9C246F7A2E00CEA4CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 38310E9B246F7A2E00CEA4CD /* Assets.xcassets */; };
 		38310E9F246F7A2E00CEA4CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 38310E9D246F7A2E00CEA4CD /* LaunchScreen.storyboard */; };
+		384BE8F824740E63002782B3 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 384BE8F724740E63002782B3 /* 1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +20,10 @@
 		38310E92246F7A2900CEA4CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		38310E94246F7A2900CEA4CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		38310E96246F7A2900CEA4CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		38310E99246F7A2900CEA4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		38310E9B246F7A2E00CEA4CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		38310E9E246F7A2E00CEA4CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		38310EA0246F7A2E00CEA4CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		384BE8F724740E63002782B3 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = ../../../1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +56,39 @@
 		38310E91246F7A2900CEA4CD /* amnesic */ = {
 			isa = PBXGroup;
 			children = (
+				38310EAA2470E9CB00CEA4CD /* Controller  */,
+				38310EA92470E9A500CEA4CD /* view */,
+				38310EA62470E92300CEA4CD /* model */,
 				38310E92246F7A2900CEA4CD /* AppDelegate.swift */,
 				38310E94246F7A2900CEA4CD /* SceneDelegate.swift */,
-				38310E96246F7A2900CEA4CD /* ViewController.swift */,
-				38310E98246F7A2900CEA4CD /* Main.storyboard */,
+				384BE8F724740E63002782B3 /* 1.jpg */,
 				38310E9B246F7A2E00CEA4CD /* Assets.xcassets */,
 				38310E9D246F7A2E00CEA4CD /* LaunchScreen.storyboard */,
 				38310EA0246F7A2E00CEA4CD /* Info.plist */,
 			);
 			path = amnesic;
+			sourceTree = "<group>";
+		};
+		38310EA62470E92300CEA4CD /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		38310EA92470E9A500CEA4CD /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		38310EAA2470E9CB00CEA4CD /* Controller  */ = {
+			isa = PBXGroup;
+			children = (
+				38310E96246F7A2900CEA4CD /* ViewController.swift */,
+			);
+			path = "Controller ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +149,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				384BE8F824740E63002782B3 /* 1.jpg in Resources */,
 				38310E9F246F7A2E00CEA4CD /* LaunchScreen.storyboard in Resources */,
 				38310E9C246F7A2E00CEA4CD /* Assets.xcassets in Resources */,
-				38310E9A246F7A2900CEA4CD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,14 +171,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		38310E98246F7A2900CEA4CD /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				38310E99246F7A2900CEA4CD /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		38310E9D246F7A2E00CEA4CD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
